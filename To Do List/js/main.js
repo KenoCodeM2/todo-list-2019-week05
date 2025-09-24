@@ -16,10 +16,10 @@ function createNewTask() {
         // Create a list item (li)
         const Li = document.createElement('li');
 
-        // Set the text of the list item to the value of the input box
+        // Set the text of the list item to the value of the input box "used google/youtube"
         Li.textContent = inputBox.value;
 
-        // Append the list item to the unordered list
+        // Append the list item to the unordered list "used google/youtube"
         todoList.appendChild(Li);
 
         // Clear the input box after adding the task
@@ -28,7 +28,7 @@ function createNewTask() {
 }
 
 function deleteAllTasks() {
-    // Remove all child elements from the unordered list
+    // Remove all child elements from the unordered list "used google /youtube for while firstchild"
     while (todoList.firstChild) {
         todoList.removeChild(todoList.firstChild);
     }
